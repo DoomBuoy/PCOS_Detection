@@ -1,0 +1,45 @@
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "pcos_detection"
+version = "0.0.1"
+description = "This project aims to develop a machine learning model to detect Polycystic Ovary Syndrome (PCOS) using clinical and diagnostic data. The notebook includes data preprocessing, exploratory data analysis, feature engineering, model training, evaluation, and interpretation of results. The goal is to assist healthcare professionals in identifying PCOS cases more efficiently and accurately."
+authors = [
+  { name = "Agam Singh Saini" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+    "black",
+    "flake8",
+    "isort",
+    "loguru",
+    "pip",
+    "python-dotenv",
+    "tqdm",
+    "typer",
+]
+requires-python = "~=3.10.0"
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
+
+[tool.isort]
+profile = "black"
+known_first_party = ["pcos_detection"]
+force_sort_within_sections = true
+
+
