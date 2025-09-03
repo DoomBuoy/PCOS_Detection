@@ -3,7 +3,13 @@
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
-<img src="https://tse1.mm.bing.net/th/id/OIP.rwrX0phesVws97q8xhHzMAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="PCOS Detection Logo" height="120">
+<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
+    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
+</a>
+
+<div align="center">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.rwrX0phesVws97q8xhHzMAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="PCOS Detection Logo" height="220">
+</div>
 This project aims to develop a machine learning model to detect Polycystic Ovary Syndrome (PCOS) using clinical and diagnostic data. The notebook includes data preprocessing, exploratory data analysis, feature engineering, model training, evaluation, and interpretation of results. The goal is to assist healthcare professionals in identifying PCOS cases more efficiently and accurately.
 
 ## Project Organization
