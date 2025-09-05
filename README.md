@@ -9,8 +9,6 @@
 # Aim
 This project aims to develop a machine learning model to detect Polycystic Ovary Syndrome (PCOS) using clinical and diagnostic data. The notebook includes data preprocessing, exploratory data analysis, feature engineering, model training, evaluation, and interpretation of results. The goal is to assist healthcare professionals in identifying PCOS cases more efficiently and accurately.
 
-# Setup:
-Run the SetYouUp.ipynb file to get started.
 
 # About the Dataset
 
@@ -43,6 +41,10 @@ The dataset used in this project contains comprehensive clinical and physical pa
 This structured and well-annotated dataset enables accurate and efficient analysis for PCOS detection and related research.
 
 Link for Dataset- https://www.kaggle.com/datasets/prasoonkottarathil/polycystic-ovary-syndrome-pcos
+
+# Setup:
+Run the SetYouUp.ipynb file to get started.
+
 ## Project Organization
 
 ```
